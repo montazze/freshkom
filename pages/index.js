@@ -6,15 +6,24 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Freshkom!</title>
+        <link rel="icon" href="/favicon.svg" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Welcome to Freshkom Farm!" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          You can create an order for our products by filling out the form below.
         </p>
+        <iframe
+          src="https://tally.so/embed/mRGVzp?hideTitle=1&transparentBackground=1"
+          width="100%"
+          height="900"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          title="Freshkom">
+        </iframe>
       </main>
 
       <Footer />
